@@ -1,0 +1,2 @@
+x = input()
+print(x[-2] if len(x.lstrip('-')) > 1 else 0)
